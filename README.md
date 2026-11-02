@@ -14,6 +14,6 @@ Technical stuffs:
 - Since the Entity class is pretty much polymorph, Obstacle class can be added under Entity class, but, I scrapped that due to that introducing another issue of pathfinding algorithm. My main focus was only the boids' three rules.
 - Nearby boids are detected with the circle approach, where the center is the current boid.
 
-Java is used as the programming language. The user interface was developed on the Swing framework.
+Java was used as the programming language, and the user interface was developed on the Swing framework.
 
 Credits to Craig Reynolds for designing the Boids algorithm.
