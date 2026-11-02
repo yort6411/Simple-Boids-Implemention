@@ -1,11 +1,11 @@
 Hello! Here are some details about this Boids implementation
 
 Features:
-- Separation (togglable)
-- Cohesion (togglable)
-- Alignment (togglable)
+- Separation - boid avoids boids that are too near (togglable)
+- Cohesion - boid goes in the middle of nearby boids (togglable)
+- Alignment - boid follows the nearby boids' movement (togglable)
 - Customizable radii
-- Customizable max speed
+- Customizable max speed (Going too fast will cause some boids to go out of bounds. It's easily fixable, maybe I will fix that later, or maybe never)
 - Pause button
 - Boid count, spatial cell count, and cell border visualizations
 
