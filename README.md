@@ -4,7 +4,7 @@ Features:
 - Separation - boid avoids boids that are too close (togglable)
 - Cohesion - boid goes in the middle of nearby boids (togglable)
 - Alignment - boid follows the nearby boids' movement (togglable)
-- Customizable radii
+- Customizable separation/cohesion/alignment radius
 - Customizable max speed
 - Pause button
 - Boid count, spatial cell count, and spatial cell border visualizations
