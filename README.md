@@ -17,7 +17,7 @@ Technical stuffs:
   
 - Nearby boids are detected with the circle approach, where the center is the current boid. Implemented using a spatial hashmap, where spatial cells are created, so that the current boid only scans the eight spatial cells around itself, which is where scanned nearby boids are calculated to achieve the circle's narrow phase hit detection.
   
-- The maximum value accepted for maxSpeed is 500. Boids can no longer stay out of bounds, so why not practically infinite? 500 is the sweet spot for the matrix's bounds, if the limit was too high, boids would continue to create new spatial cells. Anywhere above 100 is impractical anyway.
+- The maximum value accepted for maxSpeed is 500. Boids can no longer stay out of bounds, so why not practically infinite? 500 is the sweet spot for the matrix's bounds, if the limit was higher, boids would continue to create new spatial cells. Anywhere above 100 is impractical anyway.
 
 ---------------------------------------------------------------------------------------------------------------
 Java was used as the programming language, and the graphical user interface was developed on the Swing framework.
